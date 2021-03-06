@@ -67,3 +67,6 @@ ng g m appRouting --flat
 
 <!-- Separar el template principal Admin pro de la pagina login -->
 ng g c pages/pages --flat --skipTests -is <!-- Esta pagina se mostrara cuando se este autentificado -->
+
+<!-- Creacion de un modulo -->
+ng g m shared/shared
