@@ -1,0 +1,13 @@
+    <div class="card">
+      <div class="card-body">
+        <!-- Sin titulo -->
+        <h3>{{ this.titulo }}</h3>
+        <!-- Grafica de donna -->
+        <div style="display: block">
+          <canvas baseChart [data]="doughnutChartData" [labels]="doughnutChartLabels" chartType="doughnut"
+            [colors]="colors">
+          </canvas>
+        </div>
+
+      </div>
+    </div>

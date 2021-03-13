@@ -31,8 +31,8 @@ const routes: Routes = [
     CommonModule,
     RouterModule.forRoot(routes),
     // Rutas tomadas
-    PagesRoutingModule,
-    AuthRoutingModule
+    AuthRoutingModule,
+    PagesRoutingModule
   ],
   exports: [
     RouterModule // Es para que pueda ser utilizado en todos los modulos

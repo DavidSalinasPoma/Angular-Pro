@@ -13,8 +13,6 @@ import { AppComponent } from './app.component';
 import { NopagesfoundComponent } from './nopagesfound/nopagesfound.component';
 
 
-
-
 // 1.- Los componenets van en declarations
 // 2.- Los Modulos van en imports
 

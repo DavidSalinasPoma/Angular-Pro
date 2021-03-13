@@ -1,1 +1,25 @@
-<p>grafica1 works!</p>
+   <!-- ============================================================== -->
+   <!-- Start Page Content -->
+   <!-- ============================================================== -->
+   <div class="row">
+     <div class="col-6">
+       <app-dona titulo="Ventas"></app-dona>
+     </div>
+     <div class="col-6">
+       <!-- [Corchetes mandan al hijo] -->
+       <!-- (Parentesis resiven datos del hijo mediante el emit) -->
+       <!-- Sin nada manda directo sin declarar variables en el ts -->
+       <app-dona [labels]="labels1" [data]="data1"></app-dona>
+     </div>
+   </div>
+   <div class="row">
+     <div class="col-6">
+       <app-dona></app-dona>
+     </div>
+     <div class="col-6">
+       <app-dona titulo="Compras"></app-dona>
+     </div>
+   </div>
+   <!-- ============================================================== -->
+   <!-- End PAge Content -->
+   <!-- ============================================================== -->

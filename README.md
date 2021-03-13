@@ -70,3 +70,7 @@ ng g c pages/pages --flat --skipTests -is <!-- Esta pagina se mostrara cuando se
 
 <!-- Creacion de un modulo -->
 ng g m shared/shared
+
+<!-- Los components son pequequeños pedasos de la aplicacion -->
+$ ng g m components/components --flat  // Crear solo el modulo
+ng g c components/incrementador --skipTests=true // Crea solo el componente
