@@ -74,3 +74,6 @@ ng g m shared/shared
 <!-- Los components son pequequeños pedasos de la aplicacion -->
 $ ng g m components/components --flat  // Crear solo el modulo
 ng g c components/incrementador --skipTests=true // Crea solo el componente
+
+## Creamos servicios para manejar atributos de forma global
+ng g s services/settings --skipTests=true

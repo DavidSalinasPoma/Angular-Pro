@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+// Servicio global
+import { SettingsService } from '../services/settings.service';
+
 @Component({
   selector: 'app-pages',
   templateUrl: './pages.component.html',
@@ -8,9 +11,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PagesComponent implements OnInit {
 
-  constructor() { }
+  // Atributos de la clase
+  public linkTheme = document.querySelector('#theme');
+
+  constructor(private settingServices: SettingsService) { }
 
   ngOnInit(): void {
+    this.settingServices.persistenciaThemeCheck();
   }
 
 }

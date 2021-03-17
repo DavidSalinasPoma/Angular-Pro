@@ -68,11 +68,7 @@
       true,
       "single"
     ],
-    "semicolon": {
-      "options": [
-        "always"
-      ]
-    },
+
     "space-before-function-paren": {
       "options": {
         "anonymous": "never",
@@ -87,8 +83,7 @@
       "call-signature"
     ],
     "typedef-whitespace": {
-      "options": [
-        {
+      "options": [{
           "call-signature": "nospace",
           "index-signature": "nospace",
           "parameter": "nospace",
@@ -147,6 +142,12 @@
       "element",
       "app",
       "kebab-case"
-    ]
+    ],
+
+    "semicolon": {
+      "options": [
+        "never"
+      ]
+    }
   }
 }
